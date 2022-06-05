@@ -1,0 +1,5 @@
+DGA detection performances report:
+Accuracy=0.69
+Precision=0.97
+Recall=0.40
+PASS do-dga.sh (exit status: 0)

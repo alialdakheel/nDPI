@@ -1,0 +1,14 @@
+Guessed flow protos:	1
+
+DPI Packets (TCP):	9	(3.00 pkts/flow)
+DPI Packets (UDP):	1	(1.00 pkts/flow)
+Confidence Match by port    : 1 (flows)
+Confidence DPI              : 3 (flows)
+
+EthernetIP	362	51797	3
+CIPIO	398	28690	1
+
+	1	TCP 192.168.10.105:3033 <-> 192.168.10.120:44818 [proto: 278/EthernetIP][ClearText][Confidence: DPI][cat: Network/14][176 pkts/23330 bytes <-> 175 pkts/27742 bytes][Goodput ratio: 59/65][20.30 sec][bytes ratio: -0.086 (Mixed)][IAT c2s/s2c min/avg/max/stddev: 2/1 118/114 465/502 134/201][Pkt Len c2s/s2c min/avg/max/stddev: 54/60 133/159 264/347 76/106][PLAIN TEXT (00 Eastern Time )][Plen Bins: 0,60,0,8,0,0,15,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+	2	UDP 192.168.1.24:2222 <-> 192.168.1.22:2222 [proto: 293/CIPIO][ClearText][Confidence: DPI][cat: IoT-Scada/31][368 pkts/26830 bytes <-> 30 pkts/1860 bytes][Goodput ratio: 42/32][0.00 sec][bytes ratio: 0.870 (Upload)][IAT c2s/s2c min/avg/max/stddev: 0/0 0/0 0/0 0/0][Pkt Len c2s/s2c min/avg/max/stddev: 66/62 73/62 148/62 23/0][Plen Bins: 92,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+	3	TCP 10.1.1.167:5262 <-> 10.1.1.164:44818 [proto: 278/EthernetIP][ClearText][Confidence: DPI][cat: Network/14][4 pkts/252 bytes <-> 4 pkts/299 bytes][Goodput ratio: 9/25][0.13 sec][bytes ratio: -0.085 (Mixed)][IAT c2s/s2c min/avg/max/stddev: 9/38 29/44 40/49 14/6][Pkt Len c2s/s2c min/avg/max/stddev: 54/54 63/75 78/129 10/31][Plen Bins: 50,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+	4	TCP 10.1.1.167:37997 <-> 10.1.1.164:44818 [proto: 278/EthernetIP][ClearText][Confidence: Match by port][cat: Network/14][1 pkts/58 bytes <-> 2 pkts/116 bytes][Goodput ratio: 0/0][5.54 sec][Plen Bins: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
